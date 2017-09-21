@@ -1,46 +1,42 @@
-BaseURL = "http://20ba.win/"
+# hugo-pacman-theme
+
+Demo: http://coderzh.github.io/hugo-pacman-theme/
+
+## config.toml
+
+```toml
+BaseURL = "http://coderzh.github.io/"
 LanguageCode = "zh-CN"
 HasCJKLanguage = true
-Title = "No.20's blog"
-Theme = "pacman"
-# pygmentsStyle = "default"
-# pygmentsUseClasses = true
-# RSSUri = "feed.xml"
+Title = "Hugo PacMan Theme Demo"
+Theme = "hugo-pacman-theme"
+pygmentsStyle = "default"
+pygmentsUseClasses = true
+RSSUri = "feed.xml"
 
 [Author]
-  Name = "No.20"
+  Name = "coderzh"
 
 [Params]
-  AuthorHomepage = "http://20ba.win/"
+  AuthorHomepage = "http://blog.coderzh.com"
   BottomIntroduce = "Introduce1 <br/> Introduce2"
   Description = ""
   Subtitle = "subtitle"
-  # Weibo = "zdt3476"
-  # WeiboID = 1816308191
-  # Twitter = "coderzh"
-  GitHub = "zdt3476"
-  # Facebook = "coderzh"
-  # LinkIn = "coderzh"
+  Weibo = "coderzh"
+  WeiboID = 1816308191
+  Twitter = "coderzh"
+  GitHub = "coderzh"
+  Facebook = "coderzh"
+  LinkIn = "coderzh"
   Imglogo = "img/logo.svg"
   AuthorImg = "img/author.jpg"
-  # 日期时间格式
   DateFormat = "2006年01月02日"
   MonthFormat = "2006年01月"
   FancyBox = true
+  # DuoShuoShortName = "coderzh"
+  DisqusShortName = "coderzh"
+  GoogleAnalyticsID = "UA-10147768-2"
 
-  # 使用多说评论
-  #[Params.DuoShuo]
-  #  ShortName = "coderzh"
-
-  # 使用 Disqus 评论
-  [Params.Disqus]
-    ShortName = "https-20-win"
-
-  # Google 统计
-  # [Params.GoogleAnalytics]
-  #   ID = "UA-10147768-2"
-
-  # 多语言字符串
   [Params.Strings]
     Search = "搜索"
     PageNotFound = "你访问的页面不存在"
@@ -62,3 +58,8 @@ Theme = "pacman"
     Name = "关于"
     URL = "/about"
     Weight = 2
+```
+
+## ScreenShot
+
+![hugo-pacman-theme](http://7xlx3k.com1.z0.glb.clouddn.com/hugo-pacman-theme.png)
