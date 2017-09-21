@@ -25,7 +25,8 @@ packets.go:124: write unix @->/var/run/mysqld/mysqld.sock: write: broken pipe
 　　然后开始查资料，找到了[这个链接](https://github.com/go-sql-driver/mysql/issues/446) 。
 大意就是，mysql有个```wait_timeout```变量，如果一个链接在这个这个变量设置的时间段内都是空闲的，那么mysql会主动断开这个连接。但是我们是使用的这个mysql驱动无法移除```database/sql.DB```连接池中已经无效的连接，导致客户端(我们的服务器)这边再次使用这个已经被断开的连接的时候就会报错。
 
-　　查询数据库获得如下结果:
+　　查询数据库获得如下结果: 
+
 ![图片](../../img/mysql-show-timeout.png)
 
 ## 解决办法
