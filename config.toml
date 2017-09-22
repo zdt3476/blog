@@ -1,4 +1,4 @@
-baseURL = "https://www.20ba.win/"
+baseURL = "https://20ba.win/"
 languageCode = "cn"
 title = "No.20's Blog"
 theme = "hugo-nuo"
