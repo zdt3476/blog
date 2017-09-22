@@ -25,7 +25,7 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
 
 [[menu.main]]
   name = "GitHub"
-  weight = 20
+  weight = 40
   identifier = "github"
   url = "https://github.com/zdt3476"
 
