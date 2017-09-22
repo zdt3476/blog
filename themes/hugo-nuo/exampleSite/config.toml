@@ -1,6 +1,6 @@
-baseURL = "http://www.20ba.win"
-languageCode = "cn"
-title = "No.20's Blog"
+baseURL = "http://localhost:1313"
+languageCode = "en"
+title = "Hugo Blog"
 theme = "hugo-nuo"
 enableRobotsTXT = true
 pygmentsuseclasses = true
@@ -8,7 +8,7 @@ PygmentsCodeFences = true
 canonifyurls = true
 
 # Disqus Username
-disqusShortname = "https-20ba-win"
+disqusShortname = "disqus_shortname"
 
 # Google Analytics UA number
 googleAnalytics = "UA-XXXXXXXX-X"
@@ -24,38 +24,26 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   url = "/"
 
 [[menu.main]]
-  name = "GitHub"
+  name = "Works"
   weight = 20
-  identifier = "github"
-  url = "https://github.com/zdt3476"
-
-# [[menu.main]]
-#   name = "About"
-#   weight = 30
-#   identifier = "about"
-#   url = "/About/"
-
-# [[menu.main]]
-#   name = "Links"
-#   weight = 40
-#   identifier = "links"
-#   url = "/Links/"
+  identifier = "works"
+  url = "https://github.com/laozhu"
 
 # Add your own params here
 [params]
-  author = "No.20"
+  author = "Ritchie Zhu"
   avatar = "/img/avatar.jpg"
-  seotitle = "No.20's Blog (SEO Version)"
+  seotitle = "Hugo Blog (SEO Version)"
   subtitle = "~ Keep It Simple & Stupid ~"
   description = "Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again."
   paginate = 10
 
   # Choose your social networks
-  email = "zdt3476@163.com"
-  github = "zdt3476"
-  # twitter = "twitter_username"
-  linkedin = "zdt3476"
-  # weibo = "weibo_username"
+  email = "name@domain.com"
+  github = "github_username"
+  twitter = "twitter_username"
+  linkedin = "linkedin_username"
+  weibo = "weibo_username"
   wechat= "/img/qrcode.jpg" # Replace with your wechat qrcode image
   # facebook = "facebook_username"
   # google = "googlplus_id_number"
@@ -69,22 +57,22 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   # behance = "behance_username"
   # jsfiddle = "jsfiddle_username"
   # codepen = "codepen_username"
-  zhihu = "zdt3476"
+  # zhihu = "zhihu_username"
   # douban = "douban_username"
   # bilibili = "bilibili_id_number"
 
   # Changyan Comments (China Only)
   changyan = false
-  changyanId = "cyte9yEsW"
-  changyanConf = "prod_b2566ac52bbdc1ebe4295e39df081f38"
+  changyanId = "cyt3toRiB"
+  changyanConf = "prod_0908b1cb9a581501753cce1ed074dbe3"
 
   # Google Webmaster
   # https://www.google.com/webmasters/
-  # googleSiteVerification = "_moDmnnBNVLBN1rzNxyGUGdPHE20YgbmrtzLIbxaWFc"
+  googleSiteVerification = "_moDmnnBNVLBN1rzNxyGUGdPHE20YgbmrtzLIbxaWFc"
 
   # Bing Webmaster
   # https://www.bing.com/toolbox/webmaster/
-  # msValidate = "22596E34341DD1D17D6022C44647E587"
+  msValidate = "22596E34341DD1D17D6022C44647E587"
 
   # Baidu Webmaster (China Only)
   # https://zhanzhang.baidu.com/
